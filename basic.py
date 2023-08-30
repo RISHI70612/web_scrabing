@@ -22,3 +22,6 @@ for city in city_list:
 image_list = soup.find_all('img')
 for image in image_list:
     print(image.attrs['src'])
+    
+    
+#just adding comment    
